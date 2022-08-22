@@ -1,0 +1,33 @@
+{
+  "name": "cryptomonday_js",
+  "version": "1.0.0",
+  "description": "Codigo para el workshop de Cryptomonday del 22 de Agosto",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertdiaz/cryptomonday_js_algo.git"
+  },
+  "keywords": [
+    "algorand",
+    "javascript",
+    "sdk",
+    "blockchain",
+    "web3",
+    "cryptomonday"
+  ],
+  "author": "Evert Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evertdiaz/cryptomonday_js_algo/issues"
+  },
+  "homepage": "https://github.com/evertdiaz/cryptomonday_js_algo#readme",
+  "dependencies": {
+    "algosdk": "^1.19.1",
+    "dotenv": "^16.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
